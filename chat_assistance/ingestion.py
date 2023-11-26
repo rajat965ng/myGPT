@@ -13,9 +13,7 @@ pinecone.init(
 
 
 def load_docs():
-    loader = ReadTheDocsLoader(
-        path="langchain-docs", custom_html_tag=("html", {})
-    )
+    loader = ReadTheDocsLoader(path="langchain-docs", custom_html_tag=("html", {}))
     raw_data = loader.load()
     print(raw_data)
     print(f"The length of docs array is {len(raw_data)}")

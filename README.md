@@ -1,5 +1,10 @@
 # Streamlit GPT
 
+## Initialize project
+```
+poetry install
+```
+
 ## To execute GPT (Streamlit)
 ```
 poetry run gpt
